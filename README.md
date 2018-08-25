@@ -168,6 +168,8 @@ Established connection to 'ws://47.91.22.22:38092'
 
 
 ```javascript
+...
+
 export const settingsAPIs = {    
   DEFAULT_WS_NODE: "ws://47.91.22.22:38090",
   WS_NODE_LIST: [        
@@ -177,9 +179,14 @@ export const settingsAPIs = {
   DEFAULT_FAUCET: "http://47.91.22.22:3000", 
   RPC_URL: "http://47.91.22.22:38099"  
 };
-...
 
+```
 
+### `node_modules/bitsharesjs-ws/cjs/src/ChainConfig.js`
+
+用当前repo里的对应文件替换原先的`ChainConfig.js`
+
++ 启动网页钱包`npm start`
 
 
 
